@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar CodStud</title>
+</head>
+<body>
+  <!-- HEADING -->
+  <h1>Halo</h1>
+  <h2>Halo</h2>
+  <h3>Halo</h3>
+  <h4>Halo</h4>
+  <h5>Halo</h5>
+  <h6>Halo</h6>
+
+  <!-- PARAGRAPH AND TEXT FORMATTING -->
+  <p>Haloo</p>
+  <b>bold</b>
+  <i>italic</i>
+  <u>underline</u>
+  <s>striketrough</s>
+  <p>super<sup>script</sup></p>
+  <p>sub<sub>script</sub></p>
+
+  <!-- LIST -->
+   <ol type="1">
+    <li>amin</li>
+    <li>pragib</li>
+    <li>gama</li>
+   </ol>
+
+   <ul type="disc">
+    <li>mendikbud</li>
+    <li>kominfo</li>
+    <li>kpk</li>
+   </ul>
+
+  <!-- ANCHOR -->
+  <a href="https://google.com">Ke halaman Google</a> <br>
+  <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+    Buka Tab Baru ke Halaman Google
+  </a><br>
+  
+  <!-- IMAGE -->
+   <img src="gama.png" alt="Ganjar-Mahfud">
+   <!-- <img src="https://download.logo.wine/logo/University_of_Malaya/University_of_Malaya-Logo.wine.png" alt=""> -->
+
+  <!-- TABLE -->
+  <table border="2">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Umur</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">1</td>
+        <td>budi</td>
+        <td>17 tahun</td>
+      </tr>
+      <tr>
+        <!-- <td>2</td> -->
+        <td>Yono</td>
+        <td>15 tahun</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">rata-rata umur</td>
+        <td>16 Tahun</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <!-- FORM -->
+  <form action="">
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <input type="checkbox">
+    <input type="date">
+
+    <label for="email">Email</label>
+    <input type="email" id="email">
+    <input type="password" name="" id="">
+
+    <textarea name="" id="" cols="30" rows="20"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- IFRAME -->
+   <iframe src="http://codingstudio.id" frameborder="0"></iframe>
+   <iframe src="test.html" frameborder="0"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.6988203375236!2d112.62592269999999!3d-7.9264925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629b38ad57c99%3A0xcf2efe5fdfdf7525!2sLittle%20KYOTO!5e0!3m2!1sen!2sid!4v1720617637453!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d493.92143506394007!2d112.6183333620429!3d-7.960507561438696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7883ac063bd1c1%3A0xd239e4dbf5271930!2sGedung%20B20%20FMIPA%20UM!5e0!3m2!1sen!2sid!4v1720795874978!5m2!1sen!2sid" width="200" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- DIV & SPAN -->
+  <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, maiores?
+  </div> <!--  div: memakan tempat secara penuh dari kiri ke kanan -->
+
+  <span>
+    Lorem ipsum dolor sit amet consectetur adipisicing.
+  </span> <!--  span: memakan tempat hanya berdasarkan besarnya isi konten -->
+
+  <!-- SEMANTIC & NON-SEMANTIC -->
+    <header> <!-- berupa konten yang berada di atas halaman, biasanya berupa navbar -->
+      <nav>
+        <!-- untuk menu navigasi halaman, biasanya di bagian atas halaman -->
+      </nav>
+    </header>
+
+    <main> <!-- berisi konten utama dari halaman -->
+      <aside>
+        <!-- biasanya utk menu tambahan atau shortcut pada halaman -->
+      </aside>
+
+      <section>
+        <!-- berisi konten-konten yang disediakan pada halaman -->
+      </section>
+
+      <article>
+        <!-- hampir sama seperti section tapi lebih terkhusus untuk konten berupa artikel -->
+      </article>
+    </main>
+
+    <footer>
+      <!-- berisi konten yang ada di bawah/kaki halaman -->
+    </footer>
+
+    <!-- Semantic Website (seperti di atas) lebih banyak dan lebih mudah digunakan karena dapat membantu Search Engine dalam proses mencari dan memahami website tersebut. Disamping itu pula dapat mempermudah saat styling di CSS. Sebaliknya untuk non-semantic yang menggunakan tag <div> dan <span>, sebenarnya bisa namun lebih sulit saat melakukan styling serta Search Engine kesulitan dalam mencari dan memahami isi suatu website --> 
+</body>
+</html>
